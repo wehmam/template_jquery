@@ -2,75 +2,144 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>test</title>
-    <link rel="stylesheet" href="aos-master/src/sass/aos.scss">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>test</title>
+  <link rel="stylesheet" href="aos-master/src/sass/aos.scss">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top mt-4">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <!-- <div class="isianNavbar mt-5"> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <img src="img//core-img/logo.png" class="img-fluid mx-5 mt-2" alt="">
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
+        <li class="nav-item active mr-4 mt-3">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown mr-4 mt-3">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Pages
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Satu</a>
+            <a class="dropdown-item" href="#">Dua</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item mr-4 mt-3">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+        <li class="nav-item mr-4 mt-3">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item mr-4 mt-3">
+          <a class="nav-link" href="#">Portofolio</a>
+        </li>
+        <li class="nav-item mr-4 mt-3">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item mr-5 mt-3">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item mt-2 mx-5 mt-4">
+          <a href="#">
+            <img src="img/core-img/search-icon.png" class="img-fluid mx-5" alt="">
+          </a>
+        </li>
+      </ul>
+
+
+        <!-- modal -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary mt-1" data-toggle="modal" data-target="#exampleModal">
+          <strong>Login/Register</strong>
         </button>
-        <img src="img//core-img/logo.png" class="img-fluid mx-5" alt="">
-      
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
-            <li class="nav-item active mr-4">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item dropdown mr-4">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Pages
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">satu</a>
-                  <a class="dropdown-item" href="#">dua</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-            <li class="nav-item mr-4">
-              <a class="nav-link" href="#">About us</a>
-            </li>
-            <li class="nav-item mr-4">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item mr-4">
-                <a class="nav-link" href="#">Portofolio</a>
-              </li>
-              <li class="nav-item mr-4">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item mr-5">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item mt-2 mx-5">
-                <img src="img/core-img/search-icon.png" class="img-fluid mx-5" alt="">
-              </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-              
-          </form>
-        </div>
-      </nav>
-
-    <div class="container-fluid" id="konten1">
-        <!-- <img src="img/bg-img/welcome-bg.png" alt=""> -->
-    </div>
-
     
-    <script src="aos-master/src/js/aos.js"></script>
-    <script src="bootstrap/jquery-3.4.1.min.js"></script>
-    <script src="bootstrap/popper.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- Modal -->
+        <div class="modal fade hide" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>      
+        <!-- modal ends -->
 
-    <script>
-        AOS.init();
-    </script>
+    </div>
+  </div>
+  </nav>
+
+  <div class="container-fluid" id="konten1"> 
+    <p>.</p>
+  <div class="isi_konten1 mx-5" id="konten_1">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h1 class="text-center mb-3 text-white">A Clean and Modern Template </h1>
+          <h5 class="text-center mb-5 text-white">Get your freebie template Now!</h5>
+          <img src="img/bg-img/device.png" class="d-block w-75 rounded mx-auto img-fluid" alt="...">
+        </div>
+        <div class="carousel-item">
+          <h1 class="text-center mb-3 text-white">A Clean and Modern Template 2 </h1>
+          <h5 class="text-center mb-5 text-white">Get your freebie template Now!</h5>
+          <img src="img/bg-img/device.png" class="d-block w-75 rounded mx-auto img-fluid" alt="...">
+        </div>
+        <div class="carousel-item">
+          <h1 class="text-center mb-3 text-white">A Clean and Modern Template 3</h1>
+          <h5 class="text-center mb-5 text-white">Get your freebie template Now!</h5>
+          <img src="img/bg-img/device.png" class="d-block w-75 rounded mx-auto img-fluid" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+    
+  </div>
+
+  <div class="container-fluid" id="konten2">
+    <img src="img/bg-img/features-2.png" alt="">
+  </div>
+
+
+  <script src="bootstrap/jquery-3.4.1.min.js"></script>
+  <script src="bootstrap/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="aos-master/src/js/aos.js"></script>
+  <script src="script_home.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

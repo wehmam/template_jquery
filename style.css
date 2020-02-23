@@ -2,6 +2,9 @@
     background:url(img/bg-img/welcome-bg.png);
     height: 100vh;
 }
+#konten_1{
+    margin-top: 120px;
+}
 .navbar-toggler{
     background-color: rgb(110, 109, 109);
 }
@@ -15,4 +18,10 @@
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
+}
+.carousel-item h1{
+    font-weight: bold;
+}
+#konten2{
+    height: 100vh;
 }
