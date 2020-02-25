@@ -11,12 +11,3 @@ $(window).scroll(function(){
         })
     }
 })
-
-// // $(document).ready(function(){
-//     $(".down").click(function(){
-//         $('html,body').animate({
-//             scrollTop:$(window).height()
-//         },600)
-//         return false;
-//     })
-// // })

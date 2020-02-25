@@ -1,9 +1,6 @@
 #konten1{
-    background:url(img/bg-img/welcome-bg.png);
     height: 100vh;
-}
-#konten_1{
-    margin-top: 120px;
+    background: url(img/bg-img/welcome-bg.png);
 }
 .navbar-toggler{
     background-color: rgb(110, 109, 109);
@@ -14,20 +11,21 @@
     font-size: 18px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 .dropdown-item{
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
 }
-.carousel-item h1{
-    font-weight: bold;
+#isi .carousel{
+    margin-top: 150px;
 }
 #konten2{
     height: 100vh;
-    /* background-color: sandybrown; */
+    width: 100%;
 }
 #konten2 .card{
-    border: none; 
+    border: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .card h4{
@@ -60,21 +58,8 @@
     background-color:#3f2a75;
 }
 #konten3{
-    height: 100vh;
-    /* position: absolute  ; */
-
+    /* height: 90vh; */
 }
-.konten3{
-         /* margin-top:150px; */
-}
-.konten3 .text-secondary,h2{
-    font-weight: bold;
-}
-#konten5{
-    height: 100vh;
+#konten_progres{
     background-color: #3f2a75;
-}
-.konten5{
-    /* margin-top: 60%; */
-    /* padding-top: 5%; */
 }
