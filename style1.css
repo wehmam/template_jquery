@@ -1,5 +1,5 @@
 #konten1{
-    height: 100vh;
+    /* height: 100vh; */
     background: url(img/bg-img/welcome-bg.png);
 }
 .navbar-toggler{
@@ -58,4 +58,10 @@
     background-color:#280a3d;
     /* height: 100vh; */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#konten4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#konten4 .card{
+    border: none;
 }
