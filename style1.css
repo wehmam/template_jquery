@@ -21,15 +21,9 @@
     margin-top: 150px;
 }
 #konten2{
-    height: 100vh;
-    width: 100%;
-}
-#konten2 .card{
-    border: none;
+    /* height: 700px; */
+    /* width: 100%; */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.card h4{
-    font-weight: bold;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -61,5 +55,7 @@
     /* height: 90vh; */
 }
 #konten_progres{
-    background-color: #3f2a75;
+    background-color:#280a3d;
+    /* height: 100vh; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
