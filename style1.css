@@ -23,7 +23,11 @@
 #konten2{
     /* height: 700px; */
     /* width: 100%; */
+    font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#konten2 .card{
+    border: none;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -64,4 +68,13 @@
 }
 #konten4 .card{
     border: none;
+}
+#konten5{
+    background-color: transparent;
+}
+#konten5 .nav_link{
+    color: black;
+}
+#konten6{
+    background: url();
 }
