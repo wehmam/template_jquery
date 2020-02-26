@@ -10,7 +10,15 @@ $(window).scroll(function () {
             'backgroundColor': 'transparent'
         })
     }
+
+    // button top fade in and out
+    if(y >=200){
+        $('#buttonTop').fadeIn(1000)
+    }else{
+        $('#buttonTop').fadeOut(1000)
+    }
 })
+
 
 $(document).ready(function () {
     $(".owl-carousel").owlCarousel();
