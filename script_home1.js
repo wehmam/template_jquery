@@ -13,12 +13,25 @@ $(window).scroll(function () {
 
     // button top fade in and out
     if(y >=200){
-        $('#buttonTop').fadeIn(1000)
+        $('#buttonTop').fadeIn()
     }else{
-        $('#buttonTop').fadeOut(1000)
+        $('#buttonTop').fadeOut()
     }
 })
 
+
+// section attachment
+
+$(window).scroll(function(){
+    var attacchment = $(window).scrollTop();
+    $('section').css({
+        'background-position-y': attacchment + 'px',
+        'marginTop':'200px',
+        // 'marginBottom':'200px'
+    },'slow,7000')
+})
+
+// section attachment ends
 
 $(document).ready(function () {
     $(".owl-carousel").owlCarousel();
