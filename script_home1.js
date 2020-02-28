@@ -26,8 +26,8 @@ $(window).scroll(function(){
     var attacchment = $(window).scrollTop();
     $('section').css({
         'background-position-y': attacchment + 'px',
-        'marginTop':'200px',
-        // 'marginBottom':'200px'
+        // 'marginTop':'200px',
+        'background-size':'100%'
     },'slow,7000')
 })
 
