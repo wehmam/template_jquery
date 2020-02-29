@@ -56,9 +56,10 @@
     background-repeat: no-repeat;
     background-position-x: -180px;
 }
-
-
-
+#konten6{
+    background-color: rgba(219, 213, 213, 0.867);
+    height: 500px;
+}
 #konten7{
     background-color: #280a3d;
     /* height: 600px; */
